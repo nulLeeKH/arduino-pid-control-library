@@ -1,4 +1,4 @@
-# arduino-pid-calculator-library
+# arduino-pid-controller-library
 
 ## About
 
