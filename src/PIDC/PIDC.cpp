@@ -29,7 +29,7 @@ SOFTWARE.
 
 #define pCalc(__kP, _err) __kP*_err                             //P-control
 #define iCalc(__kI, _err, _inputTerm) __kI*_err*_inputTerm      //I-control
-#define dCalc(__kD, _dIn, _inputTerm) -__kD*(_dIn/_inputTerm)      //D-control
+#define dCalc(__kD, _dIn, _inputTerm) -__kD*(_dIn/_inputTerm)   //D-control
 
 
 
