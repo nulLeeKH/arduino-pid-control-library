@@ -32,7 +32,7 @@ SOFTWARE.
 class PIDC {
 public:
     PIDC(float kP, float kI, float kD);                                                     //Init calculator
-    float CalcPID(float setPoint, float crntInput, float prevInput, float inputTerm);       //calculate the PID control value
+    float CalcPID(float setPoint, float crntInput, float prevInput, float inputTerm);       //Calculate the PID control value
 private:
     float _kP, _kI, _kD, p, i, d, err, dIn;
 };
