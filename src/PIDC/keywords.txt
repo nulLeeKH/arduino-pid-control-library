@@ -15,11 +15,6 @@ PIDC	KEYWORD1
 pCalc   KEYWORD2
 iCalc   KEYWORD2
 dCalc   KEYWORD2
-
-######################################
-# Instances (KEYWORD2)
-#######################################
-
 CalcPID	KEYWORD2
 
 #######################################
