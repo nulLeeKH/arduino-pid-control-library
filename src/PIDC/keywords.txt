@@ -6,7 +6,7 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-PIDC    KEYWORD1
+PIDC	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
