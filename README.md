@@ -14,19 +14,19 @@ A library for arduino to performing PID control.
 PIDC(float kP, float kI, float kD);
 ```
 
-####  Arguments
+#### Arguments
 
-##### kP
+1. kP
 
-- K<sub>p</sub> value for PID control.
+    - K<sub>p</sub> value for PID control.
 
-##### kI
+1. kI
 
-- K<sub>i</sub> value for PID control.
+    - K<sub>i</sub> value for PID control.
 
-##### kD
+1. kD
 
-- K<sub>d</sub> value for PID control.
+    - K<sub>d</sub> value for PID control.
 
 ### CalcPID
 
@@ -38,27 +38,27 @@ float CalcPID(float setPoint, float crntInput, float prevInput, float inputTerm)
 
 ####  Arguments
 
-##### setPoint
+1. setPoint
 
-- Target value for PID control.
+    - Target value for PID control.
 
-##### crntInput
+1. crntInput
 
-- Current status value.
+    - Current status value.
 
-##### prevInput
+1. prevInput
 
-- Previous status value.
+    - Previous status value.
 
-##### inputTerm
+1. inputTerm
 
-- Interval between reading values.
+    - Interval between reading values.
 
 ####  Return
 
-##### float
+- float
 
-- Control factor to reach the target value.
+    - Control factor to reach the target value.
 
 ## Patch Note
 
