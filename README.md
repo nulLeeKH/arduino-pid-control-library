@@ -12,14 +12,14 @@ PIDC(float kP, float kI, float kD);
 
 #### Arguments
 
-1. kP
-    - K<sub>p</sub> value for PID control.
+##### kP
+- K<sub>p</sub> value for PID control.
 
-1. kI
-    - K<sub>i</sub> value for PID control.
+##### kI
+- K<sub>i</sub> value for PID control.
 
-1. kD
-    - K<sub>d</sub> value for PID control.
+##### kD
+- K<sub>d</sub> value for PID control.
 
 ### CalcPID
 
@@ -30,22 +30,20 @@ float CalcPID(float setPoint, float crntInput, float prevInput, float inputTerm)
 
 ####  Arguments
 
-1. setPoint
-    - Target value for PID control.
+##### setPoint
+- Target value for PID control.
 
-1. crntInput
-    - Current status value.
+##### crntInput
+- Current status value.
 
-1. prevInput
-    - Previous status value.
+##### prevInput
+- Previous status value.
 
-1. inputTerm
-    - Interval between reading values.
+##### inputTerm
+- Interval between reading values.
 
 ####  Return
-- float
-
-	- Control factor to reach the target value.
+- Control factor to reach the target value.
 
 ## Patch Note
 
