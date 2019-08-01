@@ -1,4 +1,4 @@
-# arduino-pid-controller-library
+# arduino-pid-control-library
 The library for arduino to performing PID control.
 
 ## Functions
