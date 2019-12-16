@@ -1,6 +1,10 @@
 # arduino-pid-control-library
 The library for arduino to performing PID control.
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![HitCount](http://hits.dwyl.io/nulLeeKH/arduino-pid-control-library.svg)](http://hits.dwyl.io/nulLeeKH/arduino-pid-control-library)
+![GitHub last commit](https://img.shields.io/github/last-commit/nulLeeKH/arduino-pid-control-library.svg)
+
 ## Functions
 
 ### PIDC
