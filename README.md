@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/nulLeeKH/arduino-pid-control-library.svg)
 
 # arduino-pid-control-library
-The library for arduino to performing PID control.
+The library for arduino to performing PID control
 
 ## Functions
 
